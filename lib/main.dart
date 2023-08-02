@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:loginapp_flutter/src/features/authentication/screens/on_boarding/on_boarding_screen.dart';
+import 'package:loginapp_flutter/src/features/authentication/screens/welcome/welcome_screen.dart';
 import 'package:loginapp_flutter/src/utils/theme/theme.dart';
 
 void main() {
@@ -14,7 +16,8 @@ class MyApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.system,
-      home: AppHome(),
+      // home: AppHome(),
+      home: WelcomeScreen(),
     );
   }
 }

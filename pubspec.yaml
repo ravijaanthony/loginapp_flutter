@@ -14,22 +14,30 @@ dependencies:
   flutter:
     sdk: flutter
 
-
   cupertino_icons: ^1.0.2
   google_fonts: ^5.1.0
   flutter_native_splash: ^2.3.1
+  get: ^4.6.5
+  liquid_swipe: ^3.1.0
+  smooth_page_indicator: ^1.1.0
+
+
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
 
+
 flutter_native_splash:
+#  For iOS
   color: '#f7f6f1'
   color_dark: '#272727'
   image: assets/images/burger-logo.png
   image_dark: assets/images/burger-logo.png
 
+# For Android
   android_12:
     image: assets/images/burger-logo.png
     icon_background_color: '#f7f6f1'
@@ -42,3 +50,6 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/images/splash_images/
+    - assets/images/on_boarding_images/
+    - assets/images/welcome_images/
